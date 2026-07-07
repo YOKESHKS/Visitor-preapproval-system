@@ -1,0 +1,40 @@
+### Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ
+.idea/
+*.iml
+
+### Eclipse
+.project
+.classpath
+.settings/
+
+### VS Code
+.vscode/
+
+### Logs
+*.log
+
+### OS Files
+.DS_Store
+Thumbs.db
+
+### Environment
+.env
+
+### Application Properties (contains DB passwords)
+src/main/resources/application.properties
+
+### If using another profile
+src/main/resources/application-dev.properties
+src/main/resources/application-prod.properties
+
+### Generated QR Codes
+qr/
+uploads/
+generated-qr/
+
+### Temporary Files
+*.tmp
