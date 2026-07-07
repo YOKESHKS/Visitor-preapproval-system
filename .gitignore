@@ -1,0 +1,113 @@
+###############################################################################
+# ROOT .gitignore
+###############################################################################
+
+############################
+# Spring Boot Backend
+############################
+
+backend/visitor-management/target/
+backend/visitor-management/.mvn/wrapper/maven-wrapper.jar
+
+############################
+# Spring Boot Secrets
+############################
+
+backend/visitor-management/src/main/resources/application.properties
+backend/visitor-management/src/main/resources/application-dev.properties
+backend/visitor-management/src/main/resources/application-prod.properties
+
+############################
+# Generated QR Files
+############################
+
+backend/visitor-management/qr/
+backend/visitor-management/uploads/
+backend/visitor-management/generated-qr/
+
+############################
+# React Frontend
+############################
+
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+############################
+# Root Node Project (Ignore)
+############################
+
+node_modules/
+package.json
+package-lock.json
+
+############################
+# Local QR & Screenshots
+############################
+
+qr
+screenshot/
+
+############################
+# IDE
+############################
+
+.idea/
+.vscode/
+*.iml
+
+############################
+# Eclipse
+############################
+
+.project
+.classpath
+.settings/
+
+############################
+# Java
+############################
+
+*.class
+
+############################
+# Logs
+############################
+
+*.log
+logs/
+
+############################
+# Temp Files
+############################
+
+*.tmp
+*.temp
+*.swp
+
+############################
+# OS Files
+############################
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+############################
+# Archives
+############################
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+############################
+# Environment Files
+############################
+
+.env
+.env.*
