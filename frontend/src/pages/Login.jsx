@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Container, Box, Card, CardContent, TextField, Button, Typography, Alert, Snackbar, Tabs, Tab } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { authService } from '../services/authService';
+import companyLogo from '../assets/sopra-steria-logo.png';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -81,6 +82,7 @@ switch (role) {
     <Container maxWidth="sm">
       <Box sx={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', py: 4 }}>
         <Box textAlign="center" mb={4}>
+        <Box component="img" src={companyLogo} alt="Sopra Steria" sx={{ height: 40 }} />
           <Typography variant="h5" color="primary" gutterBottom sx={{ fontWeight: 700 }}>
             VISITOR MANAGEMENT PORTAL
           </Typography>
